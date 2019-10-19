@@ -1,7 +1,10 @@
-function setup() {
+var msg = 'Hello World!'
 
+function setup() {
+  alert(msg);
+  console.log(msg);
 }
 
 function draw() {
-  ellipse(50, 50, 200, 200);
+  ellipse(50, 50, 50, 50);
 }
